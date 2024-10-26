@@ -1,0 +1,163 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+header {
+    text-align: center;
+    background-color: #7e3d82;
+    color: white;
+    padding: 3rem 2rem;
+}
+#Subtitulo {
+    padding: 2rem;
+    font-size: 25px;
+    text-align: center;
+}
+.aside {
+    float: left;
+    width: 300px;
+    background-color: white;
+    margin-top: 40px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: solid 1px var(--gray-color);
+    box-shadow: 0 0.3rem 0.4rem rgba(0,0,0,0.3);
+}
+.aside h3 {
+    font-size: 18px;
+}
+.aside h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background-color: #7e3d82;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+}
+.aside {
+    margin-bottom: 60px;
+}
+.aside form input[type="email"], .aside form input[type="password"] {
+ width: 100%;
+ margin-bottom: 10px;
+ padding: 10px;
+ box-sizing: border-box;
+}
+.aside form input[type="submit"] {
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 7px;
+    transition: all 0.3s;
+}
+.aside form input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: black;
+}
+.aside ul {
+    list-style-type: circle;
+}
+.aside ul li {
+    margin: 5px 0;
+}
+header h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.Container {
+    width: 400px;
+    margin: 0 auto;
+}
+section article {
+    transition: all 0.3s ease;
+    background-color: #fff;
+    margin:  1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+section article h3, section article p {
+    margin: 1rem;
+}
+
+footer {
+    background-color: #7e3d82;
+    padding: 3rem;
+    color: #fff;
+}
+footer section {
+    float: right;
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: black;
+}
+.image {
+    margin: 1rem;
+    padding: 1rem;
+}
+#Ejem {
+    padding: 0.25rem 2rem;
+    font-size: 25px;
+}
+.Listado {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: grey;
+    text-align: justify;
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    list-style-type: none;
+    text-align: center;
+}
+#EjPre {
+    padding: 0.25rem 2rem;
+    font-size: 25px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5rem 5rem 5rem 5rem;
+    table-layout: auto;
+  }
+  th, td {
+    border: solid 1px #eee;
+    padding: 5px;
+    text-align: center;
+  }
+  th {
+    background-color: grey;
+    color: black;
+    text-align: center;
+  
+  }
+  tr:nth-child(even) {
+    background-color: #eee;
+  }
+  tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+#EjPro {
+    text-align: center;
+}
